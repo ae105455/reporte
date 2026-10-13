@@ -1,0 +1,51 @@
+PRESENTACION DEL PROYECTO
+
+El presente proyecto consiste en un sistema de gestión y generación de reportes para controlar ventas, productos y clientes de una empresa. La herramienta permite registrar información, consultar datos en tiempo real y exportar reportes en formato PDF para facilitar la toma de decisiones. El sistema está diseñado para ser útil tanto para administradores como para usuarios que requieren información ordenada, clara y accesible.
+
+El objetivo principal del proyecto es automatizar el proceso de generación de reportes financieros y de inventario, reduciendo el trabajo manual y evitando errores en la organización de la información. Además, busca mejorar la eficiencia operativa y proporcionar una visión más clara del desempeño de la empresa.
+
+OBJETIVO PRINCIPAL
+
+Desarrollar un sistema web que permita registrar ventas, consultar información de productos y clientes, y generar reportes automáticos en formato PDF para facilitar la administración de la empresa.
+
+OBJETIVOS SECUNDARIOS
+
+- Organizar y centralizar la información de ventas.
+- Facilitar la consulta de reportes por fecha.
+- Mejorar el control del inventario y los registros de productos.
+- Reducir tiempos de trabajo manual.
+- Generar documentos claros y profesionales para la empresa.
+- Brindar una interfaz sencilla y amigable para el usuario.
+
+DIAGRAMA DE CLASES O RELACIONAL
+
+El sistema se basa en una estructura donde existen entidades principales como:
+
+- Usuario: administra el sistema.
+- Cliente: realiza compras o registra información.
+- Producto: representa los artículos disponibles.
+- Venta: registra cada transacción realizada.
+- DetalleVenta: almacena los productos incluidos en cada venta.
+- Reporte: genera la información consolidada para impresión en PDF.
+
+Relación básica:
+Usuario -> genera reportes
+Cliente -> realiza ventas
+Venta -> contiene varios detalles
+DetalleVenta -> pertenece a un producto
+Producto -> se vende en múltiples transacciones
+
+SOFTWARE QUE SE ESTÁ UTILIZANDO
+
+Para el desarrollo del proyecto se utilizó:
+- PHP como lenguaje principal para la lógica del sistema.
+- HTML y CSS para la estructura y el diseño de la interfaz.
+- JavaScript para interacciones y mejoras visuales.
+- MySQL como sistema de base de datos.
+- Bootstrap para una interfaz más moderna y responsiva.
+- FPDF para la generación de reportes en formato PDF.
+- XAMPP como entorno local de desarrollo.
+
+VERSION FINAL
+
+Este proyecto permite gestionar información de manera eficiente y reducir errores en la elaboración de reportes, apoyando la toma de decisiones en la empresa de forma más rápida y organizada.
